@@ -7,5 +7,5 @@ RUN localedef -f UTF-8 -i ja_JP ja_JP
 ENV LANG=ja_JP.UTF-8
 ENV TZ=Asia/Tokyo
 WORKDIR /app
-# COPY . /node-js-http-3016-app
-CMD ["sh", "node-js-http-3016/run.sh"]
+COPY . /app
+CMD ["sh", "run.sh"]
