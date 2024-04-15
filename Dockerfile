@@ -8,4 +8,4 @@ ENV LANG=ja_JP.UTF-8
 ENV TZ=Asia/Tokyo
 WORKDIR /app
 # COPY . /node-js-http-3016-app
-CMD ["sh", "run.sh"]
+CMD ["sh", "node-js-http-3016/run.sh"]
